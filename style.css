@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+body::selection{
+    background-color: orange;
+    color: red;
+}
+
+.header-content{
+    background: url("img/bg-3.jpg") no-repeat right center/cover scroll;
+    border-top: 1px solid transparent;
+    height: 500px;
+}
+
+.header-content .links-nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.header-content .links-nav li{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.header-content .links-nav li a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(68, 63, 63, 0.062);
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-content .links-nav li a:hover{
+    border-radius: 10px;
+}
+
+.titles-content{
+    text-align: center;
+    color: white;
+    margin-top: 12%;
+}
+
+.titles-content p{
+    background-color: rgba(0, 0, 0, 0.527);
+    border-bottom: 1px solid white;
+    padding: 10px;
+    width: 20%;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.titles-content p abbr{
+    text-decoration: none;
+    cursor: help;
+}
+
+.titles-content h1{
+    text-transform: uppercase;
+    font-size: 52px;
+    text-shadow: 3px 3px 5px #333;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.ilustration, .description{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.ilustration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+}
+
+.ilustration .cards{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ilustration .cards p{
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ilustration .cards img{
+    transition: all 0.3s ease-out;
+}
+
+.ilustration .cards img:hover{
+    transform: scale(1.02);
+}
+
+.description{
+    margin-bottom: 10px;
+}
+
+.description .article-main .header-article-main h2{
+    background-color: rgba(128, 128, 128, 0.199);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.719);
+    padding: 10px;
+    margin-top: 0;
+}
+
+.footer-content{
+    background-color: #6b6c68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
