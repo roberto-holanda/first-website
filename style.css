@@ -33,7 +33,7 @@ body::selection{
     border: 1px solid white;
     background-color: rgba(68, 63, 63, 0.062);
     padding: 10px;
-    letter-spacing: 1.05px;
+    letter-spacing: 1.03px;
     transition: all 0.3s ease-in-out;
 }
 
